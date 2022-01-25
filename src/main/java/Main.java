@@ -6,6 +6,7 @@ public class Main {
     boolean registered = true;
 
     long calculate = service.calculate(amount, registered);
+    System.out.println(calculate);
   }
 }
 
